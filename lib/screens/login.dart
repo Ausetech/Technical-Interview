@@ -70,8 +70,8 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/background.jpg'),
-                fit: BoxFit.cover,
+                image: AssetImage('assets/images/background.jpg'),
+                fit: BoxFit.fill,
               ),
             ),
           ),
@@ -98,8 +98,8 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                   // Logo or photo at the top
                   Center(
                     child: Image.asset(
-                      'assets/images/login.png', // Update path to your logo
-                      height: 100,
+                    'assets/images/login.png', // Use login.png instead of logo.png
+                    height: 160,
                     ),
                   ),
                   const SizedBox(height: 30),
