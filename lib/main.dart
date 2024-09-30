@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:technical_interview/screens/login.dart';
+import 'package:technical_interview/screens/login.dart'; // Update the path based on your folder structure
 
 void main() {
   runApp(const MyApp());
